@@ -5,7 +5,7 @@ import MenuBar from './components/Menu.jsx';
 
 function App(){
     return (
-        <div className='bg-gray-100 h-screen flex flex-col justify-between'>
+        <div className='bg-gray-100 h-screen flex flex-col justify-between overflow-hidden'>
             <Nav/>
             <MenuBar/>
             <Content/>
