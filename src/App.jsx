@@ -1,8 +1,16 @@
+import Nav from './components/Nav.jsx'
+import Foot from './components/Footer.jsx'
+import Content from './components/Content.jsx';
+import MenuBar from './components/Menu.jsx';
+
 function App(){
     return (
-        <h1 className="text-5xl font-bold float-start text-white bg-teal-600 p-11">
-            Bank Syariah Cabang Zimbabwe
-        </h1>
+        <div className='bg-gray-100 h-screen flex flex-col justify-between'>
+            <Nav/>
+            <MenuBar/>
+            <Content/>
+            <Foot/>
+        </div>
     )
 }
 
